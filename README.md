@@ -1,7 +1,7 @@
 # SOL GIFs
 
 #### Connect your Phantom wallet and post a GIF URL to save to Solana. 
-##### Reads & Writes data to Solana.
+##### Reads & Writes data to Solana. Displays the GIF and wallet address that submitted the URL.
 
 ### Run Locally
 1. Run `npm install` at the root of your directory
@@ -13,11 +13,11 @@ cd src
 node createKeyPair.js
 ```
 
-# Copy IDL for program info every time `anchor deploy` is ran:
+## Copy IDL for program info every time `anchor deploy` is ran:
 * `solana_program/target/idl/project_name.json`
 * Copy this file to `src/idl.json`
 
-# Deployment on the Solana Devnet
+## Deployment on the Solana Devnet
 * https://explorer.solana.com/address/5LmeKrtHy5ZrSe9pzzx2JxzRpt6j6vQuie1ADT6VgbL9?cluster=devnet
 
 ## The program directory is where `anchor` commands should be run
