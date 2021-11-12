@@ -1,0 +1,12 @@
+[programs.localnet]
+solgifs = "5LmeKrtHy5ZrSe9pzzx2JxzRpt6j6vQuie1ADT6VgbL9"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/benpoliquin/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solgifs.js" 
